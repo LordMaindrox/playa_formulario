@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso al portal</title>
+    <style>
+        body{
+            margin: 10px;
+            padding: 390px;
+            background: url(./imagen/playa3.jpg);
+            background-size: cover;
+            background-position: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        label,h1{
+            color: #000000
+        }
+    </style>
+  
+</head>
+<body>
+    <h1>Bienvenidos</h1> 
+    <form action="">
+        <fieldset>
+            <p>
+                <label for="name">
+                    <span>Registra tu nombre</span>
+                    <input type="text" id="name" autocomplete="name" required>
+                </label>
+            </p>
+            <p>
+                <label for="bith">
+                    <span>¿Cuándo naciste?</span>
+                    <input type="date" id="bith" autocomplete="bith" required>
+                </label>
+
+            </p>
+            <p>
+                <label for="country">
+                    <span>¿Dónde naciste?</span>
+                    <input type="country" id="country" autocomplete="country-name" required>
+                </label>
+
+            </p>
+                <label for="cp">
+                     <span>Código postal</span>
+                    <input type="text" id="cp" autocomplete="postal-code" required>
+                </label>
+            
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
